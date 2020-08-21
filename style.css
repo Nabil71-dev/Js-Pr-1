@@ -1,0 +1,88 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#ffffff;
+    
+}
+body
+{
+   text-align: center;
+   background-color: #2A3C44;
+}
+.main_heading ,.main_heading span
+{
+    font-size:3rem;
+}
+.in_text
+{
+    color : #25C685;
+}
+.ex_text
+{
+    color :  #FF575F;
+}
+.sub_heading1,.sub_heading2
+{
+    font-size: 2rem;
+}
+.box
+{
+    display:flex;
+    justify-content: center;
+} 
+.main_box
+{
+    height:230px;
+    width:42%;
+    margin:1.5rem auto;
+}
+.card
+{
+    width: 43%;
+    border-radius: 16px;
+    padding: .5rem ;
+}
+.card_title
+{
+    font-size: 1.5rem;
+}
+.in_card
+{
+    background-color: #25C685;
+}
+.ex_card
+{
+    background-color: #FF575F;
+}
+.box
+{
+    justify-content: space-between;
+}
+.btn
+{
+    transform: translate(3.5rem ,8rem);
+    height:2.5rem;
+    width:2.5rem;
+    border-radius:50%;
+    color:black;
+    background-color:white;
+}
+.take_input
+{
+    display:none;
+}
+input
+{
+    width:100%;
+    background-color:transparent;
+    border:.1rem white solid;
+    margin:.2rem 0rem;
+}
+.submit_btn
+{
+    width:30%;
+    margin:.7rem 0rem;
+}
